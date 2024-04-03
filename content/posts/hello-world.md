@@ -14,4 +14,4 @@ math: false
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
-some testing
+some test
