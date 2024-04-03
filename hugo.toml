@@ -1,0 +1,36 @@
+baseURL = 'https://tsaidondon.github.io'
+languageCode = 'zh'
+title = "Dondon Tsai's Blog"
+theme = 'FixIt'
+hasCJKLanguage = true
+summaryLength = 20
+[params]
+  [params.author]
+    name = "Dondon Tsai"
+  [params.cookieconsent]
+    enable = false
+  [params.page]
+    authorAvatar = false
+    wordCount = false
+    readingTime = false    
+    [params.page.share]
+      enable = false
+      Twitter = false
+      Facebook = false
+  [params.home.posts]
+      enable = true
+      paginate = 6
+
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
