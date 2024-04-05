@@ -1,9 +1,11 @@
 baseURL = 'https://tsaidondon.github.io'
-languageCode = 'zh'
+languageCode = 'zh-tw'
+defaultContentLanguage = "zh-tw"
 title = "Dondon Tsai's Blog"
 theme = 'FixIt'
 hasCJKLanguage = true
-summaryLength = 20
+summaryLength = 50
+withSiteTitle = false
 [params]
   [params.author]
     name = "Dondon Tsai"
@@ -13,13 +15,35 @@ summaryLength = 20
     authorAvatar = false
     wordCount = false
     readingTime = false    
+    pageStyle = "narrow"
     [params.page.share]
       enable = false
       Twitter = false
       Facebook = false
+    [params.page.comment]
+      enable = true
+      [params.page.comment.valine]
+        enable = true
+        appId = "nSbXKwP8nT9ulctImdR3h89x-MdYXbMMI"
+        appKey = "xuP3v6RK48JzFqJLNcFUZ4oe"
+        placeholder = ""
+        recordIP = false
+        highlight = false
+        commentCount = false
+        visitor = false
   [params.home.posts]
       enable = true
       paginate = 6
+
+ [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/avatar.png"
+      avatarMenu = ""
+      title = "Dondon Tsai"
+      subtitle = "這漫長的獨白中，你是我講述的對象，一個傾聽我的我自己 —《靈山》"
+      typeit = false
+      social = false
 
 
 [menu]
@@ -28,7 +52,7 @@ summaryLength = 20
     parent = ""
     pre = ""
     post = ""
-    name = "Tags"
+    name = "標籤"
     url = "/tags/"
     title = ""
     weight = 3

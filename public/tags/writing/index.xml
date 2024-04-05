@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Writing - 標籤 - Dondon Tsai&#39;s Blog</title>
+    <link>http://localhost:1313/tags/writing/</link>
+    <description>Writing - 標籤 | Dondon Tsai&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/writing/" rel="self" type="application/rss+xml" /><item>
+  <title>不再寫作後</title>
+  <link>http://localhost:1313/posts/e2aee69/</link>
+  <pubDate>Mon, 01 Apr 2024 00:00:00 &#43;0000</pubDate>
+  <author>Dondon Tsai</author>
+  <guid>http://localhost:1313/posts/e2aee69/</guid>
+  <description><![CDATA[距離上次貼出甚麼已經過了很久了。我本來仍會去想像寫作，去想「之後」可以寫些甚麼。但暑假了。現在不寫，]]></description>
+</item>
+</channel>
+</rss>
