@@ -31,6 +31,7 @@ withSiteTitle = false
         highlight = false
         commentCount = false
         visitor = false
+        serverURls = "https://nsbxkwp8.api.lncldglobal.com"
   [params.home.posts]
       enable = true
       paginate = 6
