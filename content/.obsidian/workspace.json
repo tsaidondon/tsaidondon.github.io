@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/on-writing.md",
+                "file": "posts/military2.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/on-writing.md",
+                "file": "posts/military2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/on-writing.md",
+                "file": "posts/military2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/on-writing.md"
+                "file": "posts/military2.md"
               }
             }
           }
@@ -148,10 +148,12 @@
   },
   "active": "03edd15e96db2765",
   "lastOpenFiles": [
-    "posts/back-to-hk.md",
     "posts/military.md",
     "posts/military2.md",
+    "posts/military5.md",
     "posts/military3.md",
+    "posts/military4.md",
+    "posts/back-to-hk.md",
     "posts/on-writing.md",
     "posts/on-writing 2.md"
   ]

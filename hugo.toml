@@ -42,7 +42,7 @@ withSiteTitle = false
       avatarURL = "/avatar.png"
       avatarMenu = ""
       title = "Dondon Tsai"
-      subtitle = "這漫長的獨白中，你是我講述的對象，一個傾聽我的我自己 —《靈山》"
+      subtitle = ""
       typeit = false
       social = false
 
