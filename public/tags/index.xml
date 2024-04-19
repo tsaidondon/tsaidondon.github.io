@@ -1,30 +1,30 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Tags - 標籤 - Dondon Tsai&#39;s Blog</title>
-    <link>https://tsaidondon.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Tags - 標籤 | Dondon Tsai&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Fri, 19 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://tsaidondon.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Fri, 19 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
   <title>Hongkong</title>
-  <link>https://tsaidondon.github.io/tags/hongkong/</link>
+  <link>http://localhost:1313/tags/hongkong/</link>
   <pubDate>Fri, 19 Apr 2024 00:00:00 &#43;0000</pubDate>
   <author>Dondon Tsai</author>
-  <guid>https://tsaidondon.github.io/tags/hongkong/</guid>
+  <guid>http://localhost:1313/tags/hongkong/</guid>
   <description><![CDATA[]]></description>
 </item>
 <item>
   <title>Military</title>
-  <link>https://tsaidondon.github.io/tags/military/</link>
+  <link>http://localhost:1313/tags/military/</link>
   <pubDate>Thu, 18 Apr 2024 00:00:00 &#43;0000</pubDate>
   <author>Dondon Tsai</author>
-  <guid>https://tsaidondon.github.io/tags/military/</guid>
+  <guid>http://localhost:1313/tags/military/</guid>
   <description><![CDATA[]]></description>
 </item>
 <item>
   <title>Writing</title>
-  <link>https://tsaidondon.github.io/tags/writing/</link>
+  <link>http://localhost:1313/tags/writing/</link>
   <pubDate>Wed, 17 Apr 2024 00:00:00 &#43;0000</pubDate>
   <author>Dondon Tsai</author>
-  <guid>https://tsaidondon.github.io/tags/writing/</guid>
+  <guid>http://localhost:1313/tags/writing/</guid>
   <description><![CDATA[]]></description>
 </item>
 </channel>
