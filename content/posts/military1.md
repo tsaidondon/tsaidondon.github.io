@@ -1,7 +1,7 @@
 ---
 title: 當兵
 subtitle: 
-date: 2024-04-17
+date: 2024-04-18
 slug: e2aee72
 draft: false
 tags:
