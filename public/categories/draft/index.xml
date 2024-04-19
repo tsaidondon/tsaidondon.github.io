@@ -1,7 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Draft - Category - Dondon Tsai&#39;s Blog</title>
+    <title>Draft - 分類 - Dondon Tsai&#39;s Blog</title>
     <link>http://localhost:1313/categories/draft/</link>
-    <description>Draft - Category | Dondon Tsai&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator><language>zh</language><atom:link href="http://localhost:1313/categories/draft/" rel="self" type="application/rss+xml" /></channel>
+    <description>Draft - 分類 | Dondon Tsai&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Fri, 19 Apr 2024 21:16:27 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/draft/" rel="self" type="application/rss+xml" /><item>
+  <title>On Writing</title>
+  <link>http://localhost:1313/posts/ccd707b/</link>
+  <pubDate>Fri, 19 Apr 2024 21:16:27 &#43;0800</pubDate>
+  <author>Dondon Tsai</author>
+  <guid>http://localhost:1313/posts/ccd707b/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

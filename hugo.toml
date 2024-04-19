@@ -16,6 +16,7 @@ withSiteTitle = false
     wordCount = false
     readingTime = false    
     pageStyle = "narrow"
+    license = ""
     [params.page.share]
       enable = false
       Twitter = false
@@ -45,7 +46,19 @@ withSiteTitle = false
       subtitle = ""
       typeit = false
       social = false
-
+  [params.footer]
+    enable = true
+    custom = ""
+    copyright = true
+    author = true
+    since = ""
+    gov = ""
+    icp = ""
+    license = ""
+    [params.footer.powered]
+      enable = true
+      hugoLogo = false
+      themeLogo = false
 
 [menu]
   [[menu.main]]
@@ -59,3 +72,15 @@ withSiteTitle = false
     weight = 3
     [menu.main.params]
       icon = "fa-solid fa-tags"
+  [[menu.main]]
+    identifier = "other"
+    parent = ""
+    pre = ""
+    post = ""
+    name = "其他"
+    url = "/other/"
+    title = ""
+    weight = 5
+    # FixIt 0.2.14 | NEW add user-defined content to menu items
+    [menu.main.params]
+      icon = "fa-solid fa-link"
