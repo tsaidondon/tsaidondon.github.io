@@ -73,12 +73,12 @@ withSiteTitle = false
     [menu.main.params]
       icon = "fa-solid fa-tags"
   [[menu.main]]
-    identifier = "other"
+    identifier = "about"
     parent = ""
     pre = ""
     post = ""
-    name = "其他"
-    url = "/other/"
+    name = "關於"
+    url = "/about/"
     title = ""
     weight = 5
     # FixIt 0.2.14 | NEW add user-defined content to menu items
