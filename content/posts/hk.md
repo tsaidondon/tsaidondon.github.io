@@ -2,10 +2,10 @@
 title: 回香港
 subtitle: 
 date: 2024-04-19
-slug: e2aee70
+slug: hongkong
 draft: false
 tags:
-  - hongkong
+  - places
 toc: true
 math: false
 ---
@@ -45,4 +45,4 @@ math: false
 
 <!--more-->
 
-*寫於2022年夏*
+*2022年夏*

@@ -1,93 +1,15 @@
-<!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/WebPage" lang="zh-tw">
-  <head>
-	<meta name="generator" content="Hugo 0.124.1">
-    
-      <meta name="theme" content='FixIt v0.3.2'>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-    <meta name="robots" content="noodp" />
-    <title>Dondon Tsai&#39;s Blog</title><meta name="author" content="Dondon Tsai">
-<meta name="author-link" content="">
-<meta name="description" content="" /><meta itemprop="name" content="Dondon Tsai&#39;s Blog">
-<meta itemprop="description" content=""><meta property="og:title" content="Dondon Tsai&#39;s Blog" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://tsaidondon.github.io/" />
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Dondon Tsai&#39;s Blog"/>
-<meta name="twitter:description" content=""/>
-<meta name="application-name" content="FixIt">
-<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="https://tsaidondon.github.io/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="Dondon Tsai&#39;s Blog">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Dondon Tsai&#39;s Blog"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "https:\/\/tsaidondon.github.io\/","inLanguage": "zh-tw","author": {
-        "@type": "Person",
-        "name": "Dondon Tsai"
-      },"name": "Dondon Tsai's Blog"
-  }
-  </script></head>
-  <body data-header-desktop="sticky" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="narrow"><header class="desktop animate__faster" id="header-desktop">
-  <div class="header-wrapper">
-    <div class="header-title">
-      <a href="/" title="Dondon Tsai&#39;s Blog"><span class="header-title-text">Dondon Tsai&#39;s Blog</span></a><span class="header-subtitle"></span></div>
-    <nav>
-      <ul class="menu"><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/tags/"
-                
-                
-              ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 標籤</a></li><li class="menu-item">
-              <a
-                class="menu-link"
-                href="/about/"
-                
-                
-              ><i class="fa-solid fa-link fa-fw fa-sm" aria-hidden="true"></i> 關於</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="切換主題">
-          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
-        </li></ul>
-    </nav>
-  </div>
-</header><header class="mobile animate__faster" id="header-mobile">
-  <div class="header-container">
-    <div class="header-wrapper">
-      <div class="header-title">
-        <a href="/" title="Dondon Tsai&#39;s Blog"><span class="header-title-text">Dondon Tsai&#39;s Blog</span></a><span class="header-subtitle"></span></div>
-      <div class="menu-toggle" id="menu-toggle-mobile">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-    <nav>
-      <ul class="menu" id="menu-mobile"><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/tags/"
-                  
-                  
-                ><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 標籤</a></li><li
-              class="menu-item"
-            ><a
-                  class="menu-link"
-                  href="/about/"
-                  
-                  
-                ><i class="fa-solid fa-link fa-fw fa-sm" aria-hidden="true"></i> 關於</a></li><li class="menu-item menu-system">
-          <span class="menu-system-item theme-switch" title="切換主題"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
-      </ul>
-    </nav>
-  </div>
-</header><main class="container"><div class="page home posts"><div class="home-profile"><div class="home-avatar"><a href="/tags/" title="標籤"><img loading="lazy" src="/avatar.png" alt="Dondon Tsai" data-title="Dondon Tsai" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/></a></div><h1 class="home-title">Dondon Tsai</h1></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/hualien/">花蓮</a>
-  </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Dondon Tsai</span></span>&nbsp;<span class="post-publish" title='2024-06-15 00:00:00'>發佈於 <time datetime="2024-06-15">2024-06-15</time></span></div><div class="content"><p>去花蓮的台鐵列車上，在宜蘭一段看到了海。看著海，好像看到了牛頓的沙灘外的海，神秘深沉，不時洗上貝殼；也看到了張愛玲的婆羅海，藍得如從明信片剪下。張愛玲說，我們都市人總是在看到海前就讀盡了海，不知道眼前的海有多少是雙眼所見，有多少是想像著他人的想像，就如AI相機填充出的月亮。</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Places - 標籤 - Dondon Tsai&#39;s Blog</title>
+    <link>https://tsaidondon.github.io/tags/places/</link>
+    <description>Places - 標籤 | Dondon Tsai&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><lastBuildDate>Sat, 15 Jun 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://tsaidondon.github.io/tags/places/" rel="self" type="application/rss+xml" /><item>
+  <title>花蓮</title>
+  <link>https://tsaidondon.github.io/posts/hualien/</link>
+  <pubDate>Sat, 15 Jun 2024 00:00:00 &#43;0000</pubDate>
+  <author>Dondon Tsai</author>
+  <guid>https://tsaidondon.github.io/posts/hualien/</guid>
+  <description><![CDATA[<p>去花蓮的台鐵列車上，在宜蘭一段看到了海。看著海，好像看到了牛頓的沙灘外的海，神秘深沉，不時洗上貝殼；也看到了張愛玲的婆羅海，藍得如從明信片剪下。張愛玲說，我們都市人總是在看到海前就讀盡了海，不知道眼前的海有多少是雙眼所見，有多少是想像著他人的想像，就如AI相機填充出的月亮。</p>
 <p>看著看著，我確實看到了我自己的海，在一線天空與海浪的盡頭之間。但該怎麼寫這片海呢？我已經看到了海，為什麼還需要把他寫出來呢？為什麼要用蒼白乾枯的文字擬仿呢？如果你也看過海，那當我說「海」，就已能喚起你心裡的那片海。如果沒有，多說也無益。又或許，是我想讓你看見我所見的海，看見我為海所上的顏色。但我們一旦開始描述，就切割出了經驗的某個部分。當我說它藍，你就看不見它的廣闊，當我說它廣闊，你就忘記了它的藍。即使我為一切事物找到了名字，一口氣將它說出，我看到的也不是一連串經驗的總和，只是海。「真想讓你也看看這片海。」</p>
 <p>正琢磨著文字，火車又鑽進了隧道，一片黑暗。海不見了，只留下已開始流失水分的回憶。我經常暗地嘲笑在美景前拍照的人們，但方才的我不也如此嗎？</p>
 <p>平常的寫作，大多是積蓄已久，醞釀成形才下筆，但這次想試試更隨興地寫，就像是寫生。</p>
@@ -115,34 +37,15 @@
 <p>雖然在陌生的花蓮，這樣一床一椅，一桌一電腦的小房間，我太過熟悉。不只是台北的家，在香港，台南，札幌，甚至阿姆斯特丹，我都有過這樣的小房間。關於這點，言叔夏寫得比我好多了：</p>
 <p>「每天我下樓，越過旅館櫃檯到對街的便利商店去，捧回食物與酒水。飛過了三萬五千英里抵達東京都，我仍在這個國家的某個邊郊過著穴居的生活，一如台北。有時我簡直要懷疑我所擁有的其實並不是一個旅行，而是一種背負在身上的磁場。簡直我只是將一個房間空降在一處我所不認識的地方，然後我打開門偶爾出去和那些面孔五官稍異之人類挨拶再迅速退回，退回這切割精準宛如抽屜抑或小匣之房間。」</p>
 <p>在那些城市的畫布上，或許也畫過些濃墨重彩，但大部分仍是留白，白就是生活的底色，四面水泥牆的白，筆電螢幕的白。通過想像，這個小房間曾是整個宇宙，我能看動畫，電影，讓想像帶走我，我能沉溺於各式各樣的事物，遊戲、歷史、甚至理想。但當寂靜的夜流過，鳥聲總把我拉回最樸素的這個世界，一切消逝，只餘螢幕與牆，白的刺眼。</p>
-<p>直到現在，每當有這樣懶得出門的時刻，我仍擔憂自己就將與過去的軌跡重合。但我確實跟過去不同了，有時甚至煩惱得是回不去。可能是那扇不存在的門變緊了，也可能是我越來越少找到通往沉浸的鑰匙，已不再能輕易地全心沉浸虛擬。即使下班，即使坐在同樣的桌椅前，面對同樣的白牆與螢幕，我仍無法忘懷現實，輕易找回四面牆裡的宇宙。能走出來玩挺開心的，但迷上(G)I-DLE，一早上都在看vlog，或許也是件珍貴的事。準備好回去了。</p></div><div class="post-footer">
-    <a href="/posts/hualien/">閱讀全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/places/' class="post-tag">Places</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/bookshelf/">我的書櫃</a>
-  </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Dondon Tsai</span></span>&nbsp;<span class="post-publish" title='2024-06-14 00:00:00'>發佈於 <time datetime="2024-06-14">2024-06-14</time></span></div><div class="content"><p>從我有記憶起，家裡的走廊就一直被比我還高的CD架佔據著，把走廊都擠窄了。架上也擺了不少CD，但大多是書，爸媽的日本推理小說與西方文學，托斯卡尼豔陽下，模仿犯，我無數次掠過這些書名，卻仍未看過。</p>
-<p>隨著我上小學，認字，奇幻小說的領地急速擴張，把僅餘的空牆也都釘上了書架。有時逛書店的奇幻區，甚至都比我家還少些。迷霧之子自不用說，我也看龍槍，耐著性子把精靈寶鑽讀完。我並不挑食，也看了些吸血鬼的都會奇幻。</p>
-<p>如果說我有什麼才能，那就是脫離現實。當我讀起小說，聽覺與觸覺都會隨著現實褪去，只剩眼中的墨字與腦中的想像，我彷彿也馳騁於世界，活在故事裡。這使很長一段時間，我都覺得平時所生活的，肉眼所見的，人稱之為現實的，甚至不是繁花中最燦爛的一朵，頂多是紋理比較豐富罷了。不過，隨著年歲增長，我也慢慢體會到為何說文字不過是糟粕。有些經驗與領會確實難以言傳，無以名。文字能勾勒的，就如乾燥花一樣，形色仍在，但終究沒了水分。如今，讀小說更像泡茶，莖脈舒展，也為開水添些滋味。</p>
-<hr>
-<p>國中，家旁書店的架上漸漸只擺文具與參考書，博客來興起，我也愈來愈常點進人文社科的類別。最初是賈德·戴蒙的槍炮、病菌與鋼鐵，讓我一頭栽進人類歷史的長河，思考為何有些國度富裕，有些國度多難。高中快畢業時，我讀到了諾斯的西方世界的興起，還拿著其中的一段推演追問大一的學長，搞到他丟了一個經濟學原理教科書的文檔給我。不過這種問大問題的經濟學也遠去了，大海太過洶湧神秘，現在的我在岸邊拾些形狀可愛的石子，也就滿足了。</p>
-<p>我在港科大門口小小的商務印書館買了好多書，夏目漱石，楚威格，每一次從香港回來台灣行李箱總有大半是裝書。那時的我，符合年歲地讀起了文學與哲學。我喜歡太宰治與張愛玲，但不是因為人間失格或傾城之戀，而是他們的散文。我喜歡他的裸露與矯飾，陰雨中看著斜陽，在人世尋找安身之所。太宰治也讓我沉溺在罪惡感中，並為自己因罪惡而受苦的高潔暗暗自喜。但終究是行動決定了言語是承諾還是矯辯，而太宰治逼迫我學會了分離作家與作品。</p>
-<p>我一次次重讀天才夢，懷疑自己是否真有蓋過無能的才華，試著在生活中找到七月巧雲。燼餘錄與自己的文章讓我學著她崇尚起參差，看輕自己清堅決絕的思想，而我也思考爽快的文字背後藏著什麼樣的人，為何如此奇葩會願意低到塵埃裡去。我會開始寫的原因，或許就是她對文字的雕琢，馴服了不羈巧思的技藝。但要說張愛玲對我最大的影響，卻是讓我認清了雅俗之別中的擺態，真誠且不帶歉意地去喜愛自己喜愛的事物，我還是一直喜歡吃麥當勞，甚至仍不時懷念起曾經沉迷的原神。</p>
-<p>我第一次接觸哲學，是社團學長推薦給我的沉思錄。奧里略那簡單而高貴的格言成為了我的信條，甚至是一種咒語，抵禦外界的笑聲或缺乏笑聲，使大學圖書館鮮有生人的閱覽室成為了心靈最初的壁壘。我跳過了大多的形上學，看起了存在主義，比起解答，我找到更多的是同理，原來也有人與我看見那一無所有的荒原，感到同樣的疑問與絕望。但他們也繼續生活，因為那是我們唯一擁有的。</p>
-<p>最初，蘇格拉底接生了我的困惑，甚麼是善？甚麼是理想？這世界是甚麼？對於這些，我們知道甚麼，能知道甚麼？最後，維根斯坦治好了它，「事實的邏輯圖像是思想」，「思想是有意義的命題」，對於真正重要的事，我們無法言說，也不須提問。在台北車站的人群中，一一八巷的晨光裡，山與海間的台九線上，隨著漫長的二十初歲走向了終章，對人與人生的煩惱，竟也與哲學一般，沒有被解決，只是消散了。</p>
-<hr>
-<p>在今天走進我的臥室，會看見幻想的領地已餘不多，只剩下勒瑰恩的地海，但依舊有個空位給風之名的第三集。我也不再是科普書所寫給的普羅大眾，而成為了象牙塔中的一員，將科普藏到放冬被的櫃子裡。比起曾輪流主宰的太宰治與奧里略，蒙田被我從軍營帶回到書架正中。中庸的他更適合現在的我，通勤時有些哲思，但不執著著刨底，因過錯懊悔，但仍容許快樂。</p>
-<p>最會讓訪客驚訝的或許是架上的輕小說。自從一本《刀劍神域》（甚至還是第三集）被遞到了在花蓮百般無聊的國中生手上，我就一直在讀輕小說，只是那時被我放在一旁的一個小書櫃，似乎難登大雅之書櫃。但如今不一樣了，我在黃金位置上放了從國中一路讀到現在的加速世界，可愛的我的妹妹哪有這麼可愛，真摯純熟的虎與龍。他們與對話錄都是好鄰居。</p>
-<p>我「文學」讀的不多，但也磨完了川端康成、高行健、杜斯妥也夫斯基之類的磚頭。我確實佩服這些作品，在官能與背德中對美極致的追求；攀著語言與敘事的懸崖，直到「只落著雪」；嗯，我對《白癡》還真沒什麼感想。我仰望他們的偉大，但我的生活也只是平凡。純文學有如巨人在殿堂中宣讀人類的靈魂，輕小說卻如在酒吧裡不著邊際的談笑，三杯後卻不意吐露太多。</p>
-<p>那些書獻給了人類，平板讀的這本書卻是寫給我的。這部小說雖然書名念起來總是很羞恥，我仍一遍遍地向周遭的人推薦，只願有一天我能有足夠的成就讓人好奇這本書裡藏了甚麼。或許，前面鋪陳了小說、散文與哲學，也只是使人信服我是以最嚴肅的態度說出這句話：《如果有妹妹就好了》是我最愛的書。</p>
-<p>很難寫我如何喜愛這本書，總怕不意間裸露了過度的自己。但我好像真的認識那些角色，跟他們一起度過了十四集的青春。而我也理解了文字背後的平板讀，懂他為何堅持寫有趣而有靈魂的輕小說，懂他對故事的熱愛與信仰。如同林文月寫給清少納言的：「你可以把我當作一個知音，因為我曾經仔仔細細讀你所寫的每一個字，並且能夠體會那些文字，以及文字以外的一些事情。」</p>
-<p>這本書不像風之名讓我魂牽夢縈，畢竟我正活著裡頭的人生。每個人物都彷彿是我的一個投影。就如羽島伊月，我仍不知道自己有多少才能，卻已漸漸磨去了疏狂，我懂他從才能型變成匠人型的無奈，面對天才的無力與追趕。我們不過是個眷戀生活的半吊子，卻仍想成為什麼，無可救藥地試著把生命活成值得寫下的故事，也如白川京、如不破春斗、如三國山蠶。</p>
-<p>我還能嘮叨個幾千字，但或許我只是想感謝遇到了這本書。起初是碩班在搭捷運時片片斷斷地讀，後來買了實體書回來，當研究助理時又讀了兩次，每次讀總使我不時笑出聲，也偶爾眼眶紅熱。</p>
-<p>又要去新的地方了，很遠，很久。書牆太大，沒法全帶著走，我挑選著哪些書能帶著走，哪些書得留下，想著在彼岸，也將有一牆新的書架等著被填滿。</p></div><div class="post-footer">
-    <a href="/posts/bookshelf/">閱讀全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/introspect/' class="post-tag">Introspect</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/hongkong/">回香港</a>
-  </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Dondon Tsai</span></span>&nbsp;<span class="post-publish" title='2024-04-19 00:00:00'>發佈於 <time datetime="2024-04-19">2024-04-19</time></span></div><div class="content"><p>2019年末，我從學校搭上的士，只想盡快從清水灣趕到桃園。但司機說九龍封住了走不通，得從西貢公路繞著走。載生鮮的小貨車、剛打蠟完的轎跑，整個香港的車流都被壓縮到了那山海間的一線道。總算到了機場，也沒時間吃翠華的海南雞了，報到、出關、登機。我卻沒想到，這一走就是兩年半。</p>
+<p>直到現在，每當有這樣懶得出門的時刻，我仍擔憂自己就將與過去的軌跡重合。但我確實跟過去不同了，有時甚至煩惱得是回不去。可能是那扇不存在的門變緊了，也可能是我越來越少找到通往沉浸的鑰匙，已不再能輕易地全心沉浸虛擬。即使下班，即使坐在同樣的桌椅前，面對同樣的白牆與螢幕，我仍無法忘懷現實，輕易找回四面牆裡的宇宙。能走出來玩挺開心的，但迷上(G)I-DLE，一早上都在看vlog，或許也是件珍貴的事。準備好回去了。</p>]]></description>
+</item>
+<item>
+  <title>回香港</title>
+  <link>https://tsaidondon.github.io/posts/hongkong/</link>
+  <pubDate>Fri, 19 Apr 2024 00:00:00 &#43;0000</pubDate>
+  <author>Dondon Tsai</author>
+  <guid>https://tsaidondon.github.io/posts/hongkong/</guid>
+  <description><![CDATA[<p>2019年末，我從學校搭上的士，只想盡快從清水灣趕到桃園。但司機說九龍封住了走不通，得從西貢公路繞著走。載生鮮的小貨車、剛打蠟完的轎跑，整個香港的車流都被壓縮到了那山海間的一線道。總算到了機場，也沒時間吃翠華的海南雞了，報到、出關、登機。我卻沒想到，這一走就是兩年半。</p>
 <p>初見港科大那火雞雕塑，又是再兩年半前。抬著過重的行李廂走下的士，大一的我很驚訝號稱地狹人稠的香港，原來也有這麼自然的地方。科大在山上也在海邊，野豬沒有少見到令人震驚，但也沒有常見到阻止新生興奮地跟朋友提起；號稱有百萬海景，不過看久了也不過是一片藍。地處偏遠，繁華的市區有點遠，吃膩了麥當勞跟食堂，周末想換換口味都在附近解決。</p>
 <p>在小巴上搖搖晃晃個十幾分鐘，就能抵達坑口。坑口是個新發展的市鎮，山谷間擠出的一塊地，緊緊蓋滿了大樓。地鐵站周遭有幾個商場，用天橋連成一圈，就是週末吃飯的去處，有粥、米線、拉麵、火鍋、跟貴得嚇人的「臺灣料理」。其實哪家不貴，但看到同樣的排骨飯賣同樣的價錢，不過從台幣換成港幣時，還是會暗暗心驚。某次還在粥店旁邊看到了徵人的廣告，洗碗工月薪一萬六港幣。有一陣子我一回台灣逢人便說。</p>
 <p>聚餐才會到市區，一大夥人常去的就是雞煲。雞煲兩吃，先上一大鍋類似三杯作法的雞肉，肉並不多，搶個一輪就差不多了，然後加入高湯變成火鍋，可以加肉、加菜、加五花八門的火鍋料。那時候流行吃起司口味，大量的起司融在湯裡，整鍋都是橘黃色。但要加一百塊。另外愛約的就是日本料理，也是貴，但雞煲至少吃起來熱鬧，日料就只是貴而已，也沒有多精緻（或說真正精緻的吃不起）。大一後改去大排檔，但也沒那麼多聚餐了。</p>
@@ -157,12 +60,15 @@
 <p>從香港回台灣前，我常拖著兩個行李箱到坑口吃碗米線。雖然都說廣東人不吃辣，但譚仔三哥米線非常辣，菜單上洋洋灑灑寫著大辣、中辣、小辣，小辣還分一到十小辣，我從來只在二三小辣間上下，還吃的臉紅流汗。所以固然一杯要價十六港，我還是必點一杯檸檬可樂。有一次我不小心打翻了可樂，先是為錢包心疼，又想說完了要挨罵。但大姊一來，俐落地把東西移到另外一桌，叫我坐過去，又幫我上了一杯可樂。帳單只收了我一杯的錢。</p>
 <p>在香港吃飯有許多規矩，茶一定要滾，不燙舌頭還懷疑不是現沖的；杯筷碗盤不能直接用，得要壺熱水自己洗過，不然怕餐廳沒有洗乾淨。我也習慣了不要臉地向燒臘店老闆多要點蔥油，唔該唔該敷衍過少不了的碎念。</p>
 <p>台北的廣東粥裡總吃得到米粒。</p>
-<p>兩年半後，我再一次見到香港機場。淨白的牆上只貼著海報，貼心地解說為了防範新冠病毒，在入境前抵港旅客應先完成填表，檢查文件，驗核酸，驗快篩，批檢疫令，檢查檢疫令等手續。終於出關。習慣使然，我走向寫著香港居民的牌子。但辦事員告訴我，既然我不再是港科大的學生，請走訪客通道。</p></div><div class="post-footer">
-    <a href="/posts/hongkong/">閱讀全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/places/' class="post-tag">Places</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/military/">當兵</a>
-  </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Dondon Tsai</span></span>&nbsp;<span class="post-publish" title='2024-04-18 00:00:00'>發佈於 <time datetime="2024-04-18">2024-04-18</time></span></div><div class="content"><p>進入機構，震撼是必經的儀式。在入伍訓，我們穿上迷彩服，剃成光頭，用號碼而非名字稱呼彼此，消除了可能妨礙管理的差異。我們被外界隔離、收走手機、連著十二天不回家，使世界被限縮到寢室、餐廳與集合場；集合有命令規定、走路有命令規定、吃飯也有命定規定，我們的意識被命令填滿，讓不假思考的服從成為了肌肉記憶。軍人當然不懂社會學，但「打碎重組」這詞確實貼切。如同精神病院中的患者，一個個社會中的人被打碎，重組成一群機構的被收容者。</p>
+<p>兩年半後，我再一次見到香港機場。淨白的牆上只貼著海報，貼心地解說為了防範新冠病毒，在入境前抵港旅客應先完成填表，檢查文件，驗核酸，驗快篩，批檢疫令，檢查檢疫令等手續。終於出關。習慣使然，我走向寫著香港居民的牌子。但辦事員告訴我，既然我不再是港科大的學生，請走訪客通道。</p>]]></description>
+</item>
+<item>
+  <title>當兵</title>
+  <link>https://tsaidondon.github.io/posts/military/</link>
+  <pubDate>Thu, 18 Apr 2024 00:00:00 &#43;0000</pubDate>
+  <author>Dondon Tsai</author>
+  <guid>https://tsaidondon.github.io/posts/military/</guid>
+  <description><![CDATA[<p>進入機構，震撼是必經的儀式。在入伍訓，我們穿上迷彩服，剃成光頭，用號碼而非名字稱呼彼此，消除了可能妨礙管理的差異。我們被外界隔離、收走手機、連著十二天不回家，使世界被限縮到寢室、餐廳與集合場；集合有命令規定、走路有命令規定、吃飯也有命定規定，我們的意識被命令填滿，讓不假思考的服從成為了肌肉記憶。軍人當然不懂社會學，但「打碎重組」這詞確實貼切。如同精神病院中的患者，一個個社會中的人被打碎，重組成一群機構的被收容者。</p>
 <p>入伍三天後，我才第一次拿到手機。當我顫抖著手戴上耳機，曾經不過是背景的旋律變得如此鮮明，如此深刻，彷彿我是第一次聽到音樂。</p>
 <p>起初的震撼過去後，我們的意識不再被五分鐘後要穿甚麼要帶甚麼填滿，而能有些更長遠的考慮，例如新訓連續十二天訓練的結尾，懇親會。我們真的是數著饅頭過日子。每吃一餐，我們就會說「再吃十二餐就放假了」。說實在，懇親會後不過也只放假四天，之後更還有三個多月的役期，但懇親會仍是我們期待的一切。我們沒有過去，沒有未來，只有現在的苦難，以及一切的終結，懇親會。</p>
 <p>我們崇敬地談論懇親會後的放假，彷彿那不是幾天前再正常不過的生活，而是應許的至福。一旦放假，就不用一起床折棉被蚊帳，不用害怕吃飯坐勢不對就要挨罵。一旦放假，就可以吃麥當勞，喝手搖飲，看YouTube，還有一個略顯怪異卻獲得諸多共鳴的幻想—坐在馬桶上滑手機。「我們每天度過的稱之為日常的生活， 其實是一個個奇蹟的連續也說不定。」我直到那刻才理解《日常》這句話中蘊含的真實。</p>
@@ -207,34 +113,7 @@
 <p>這四個月體驗起來極其漫長，留下的記憶卻顯得很短暫。有些人甚至會說一眨眼就過去了。或許這也是為什麼會說二十五歲之後過的很快。因為生活穩定下來了，日復一日的日常，沒有什麼值得記憶。但體驗與記憶中的自我是不一樣的，甚至是衝突的。</p>
 <p>例如鑑測後的那個週五，有許多人放么八、甚至么兩，當時羨慕的不得了。但當晚也吃到了咖哩雞腿大餐，自己當打飯班，吃兩隻大雞腿，晚上聽輔導長彈吉他唱歌。當下寧可趕快回家休息，但從記憶上，絕對是比在家看YouTube精彩。</p>
 <p>又如曾班長給我們的內務示範。晚上因為拖鞋沒擺正，就把一整個實木的內務櫃，與分上下的大木床，給搬到了連集合場。那時，連其他班長都看不下去，接連來提醒我們，甚至還有個班長在鏡子上哈氣寫了「X你娘曾XX」。當下真的是氣到不行，但在人來人往的走廊上折豆腐棉被，也是我一輩子都不會忘記的陰間魔幻。</p>
-<p>那些痛苦折磨的，現在寫起來竟帶了些趣味。或許這就是日常的悲劇，波折創造回憶，幸福的日常卻不會留下什麼印記。</p></div><div class="post-footer">
-    <a href="/posts/military/">閱讀全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/places/' class="post-tag">Places</a></div></div>
-</article>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h2 class="single-title" itemprop="name headline"><a href="/posts/writing/">寫作</a>
-  </h2><div class="post-meta"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Dondon Tsai</span></span>&nbsp;<span class="post-publish" title='2024-04-17 00:00:00'>發佈於 <time datetime="2024-04-17">2024-04-17</time></span></div><div class="content"><p>我本來仍會去想像寫作，去想「之後」可以寫些甚麼。但一次暑假時，我想，放假不寫，更待何時？於是我承認，好久沒寫了。</p>
-<p>可能是因為忙。可能是因為不再那麼急切地渴望展現與訴說。可能是因為在思考的更多後，我發現自己知道的更少。可能是因為書寫有點像是對著暗笑著的空谷傾訴，有點像是在中山的紅男綠女前坦露不堪的軀體。</p>
-<p>但或許也只是因為寫的理由消失了。曾經，我寫只是為了跟自己說：我在寫。寫作曾是我自我認識的核心，一個我需要的基石。寫作讓我能夠相信自己仍努力著，仍追尋著甚麼。但如今我真的在追尋著甚麼。
-如今我快樂了，也淺薄了，與所有人一樣獨特得無可救藥地平凡。已經沒什麼特別想說的了。</p>
-<p>我依然想念自己的文字。書寫時，我能聽到另一種聲音，清澈深沉。或許我從未把它寫出來過。</p>
-<hr>
-<p>後來，我又開始寫了，還自以為寫的越來越好。即便斷裂也不填塞，如捕夢網般攔下，陳列，只追求以文字指向真實。這些東西，會有誰看得懂呢？我假裝不在乎，也真沒有在乎到想花時間去解釋，汲汲營營把文字引向共通的經驗。我無意把我的夕陽與樹帶到誰眼前。</p>
-<p>我也察覺。寫是件奇怪的事。生活中的大多都不會被記錄、甚至不被意識，寫下的大多是出格的事，就如冰山。將寫下的公開出去，更怪。是什麼讓的人會想袒露最私密的想法？是什麼成熟，會想要被不特定的多數看到？</p>
-<p>到底是為什麼寫呢？整理紀錄思緒？寫給未來的自己？總有一天會給某一個人看到？高行健說：「這漫長的獨白中，你是我講述的對象，一個傾聽我的我自己。」或許只是想讓你找回我。</p>
-<hr>
-<p>維根斯坦說，當我們明白了命題的一般形式，也就明白了我們能言說的是如此之少。但文字不只乘載著言說，文字是一種行動，語言遊戲中的一步棋，就如同一抹微笑，如同適時的一聲嘆息。即使我們不知道魚的快樂，當孩童指著自己的肚子，媽媽便知道他餓了。即使形而上的隔絕隔著人與人，隔著我與你，即使文字終究無法讓他人知曉新的事物，我們仍共享著孤獨，世界的腐爛與美，心靈的平靜與歡欣，沉醉與放縱與痛苦與焦慮。而我想指出真實，就像玩著比手畫腳的嬰兒。</p>
-<p>但也有時，當我們以為與朋友親密地交著心，當你以為他真的也經歷了那樣的一件事，一句用詞微妙的話，一個晚了半剎的應聲，就讓人跌回了孤獨。有些經驗終究是私密的，就像香菜的味道。夕陽，平靜，阿姆的橋與凹凸的路，六號宿舍的沙發，對我，這是回家的路標，對你，那不過指著虛無。在不久的未來，我也將成為你。這些記憶的肉體也將逝去，只留下邏輯實證無色的骨，「曾發生過這樣的事」的命題。這些文字將成為空無，如同指著亂碼的pointer。但我堅稱寫作是有意義的，因為我在寫。</p></div><div class="post-footer">
-    <a href="/posts/writing/">閱讀全文</a><div class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/introspect/' class="post-tag">Introspect</a></div></div>
-</article>
-</div></main><footer class="footer">
-    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.124.1">Hugo</a> 強力驅動 | 主題 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.3.2">FixIt</a>
-        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
-            <span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">
-              <a href="/">Dondon Tsai</a></span></div></div>
-  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到頂部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
-        </div><div class="fixed-button view-comments d-none" role="button" aria-label="查看評論"><i class="fa-solid fa-comment fa-fw" aria-hidden="true"></i></div></div><div id="mask"></div><noscript>
-    <div class="noscript-warning">FixIt 主題在啟用 JavaScript 的情況下效果最佳。</div>
-  </noscript>
-</div><link rel="preload" href="/lib/katex/katex.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/lib/katex/katex.min.css"></noscript><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script>window.config={"code":{"copyTitle":"複製到剪貼板","editLockTitle":"鎖定可編輯代碼塊","editUnLockTitle":"解鎖可編輯代碼塊","editable":true,"maxShownLines":10},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script src="/js/theme.min.js" defer></script></body>
-</html>
+<p>那些痛苦折磨的，現在寫起來竟帶了些趣味。或許這就是日常的悲劇，波折創造回憶，幸福的日常卻不會留下什麼印記。</p>]]></description>
+</item>
+</channel>
+</rss>
