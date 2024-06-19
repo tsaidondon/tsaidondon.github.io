@@ -4,7 +4,7 @@ title: 關於
 comment: false
 ---
 
-不定期佛系更新，今後應該只會在這邊寫了。
+隨興更新。今後應該只會在這邊寫了。
 
 以前的東西：
 - 平台: [Medium](https://tsailintung.medium.com/)、[關鍵評論網](https://www.thenewslens.com/author/tsaidondon)、[故事](https://storystudio.tw/member/tsaidondon/articles)、[臉書](https://www.facebook.com/candleinthecave)
