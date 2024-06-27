@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/military2.md",
+                "file": "posts/hualien.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c608bd38abd4e6f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/hualien.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/military2.md",
+                "file": "posts/hualien.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/military2.md",
+                "file": "posts/hualien.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/military2.md"
+                "file": "posts/hualien.md"
               }
             }
           }
@@ -146,15 +159,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03edd15e96db2765",
+  "active": "c608bd38abd4e6f6",
   "lastOpenFiles": [
+    "posts/on-writing.md",
+    "posts/military1.md",
+    "posts/hk.md",
+    "posts/bookshelf.md",
+    "posts/hualien.md",
     "posts/military.md",
     "posts/military2.md",
     "posts/military5.md",
     "posts/military3.md",
     "posts/military4.md",
     "posts/back-to-hk.md",
-    "posts/on-writing.md",
     "posts/on-writing 2.md"
   ]
 }
