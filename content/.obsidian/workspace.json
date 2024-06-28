@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/hualien.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c608bd38abd4e6f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/hualien.md",
+                "file": "posts/military1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/hualien.md",
+                "file": "posts/military1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/hualien.md",
+                "file": "posts/military1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/hualien.md"
+                "file": "posts/military1.md"
               }
             }
           }
@@ -159,13 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c608bd38abd4e6f6",
+  "active": "03edd15e96db2765",
   "lastOpenFiles": [
-    "posts/on-writing.md",
-    "posts/military1.md",
     "posts/hk.md",
-    "posts/bookshelf.md",
+    "posts/military1.md",
+    "posts/on-writing.md",
     "posts/hualien.md",
+    "posts/bookshelf.md",
     "posts/military.md",
     "posts/military2.md",
     "posts/military5.md",
