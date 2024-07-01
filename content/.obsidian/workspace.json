@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/military1.md",
+                "file": "posts/hk.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/military1.md",
+                "file": "posts/hk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/military1.md",
+                "file": "posts/hk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/military1.md"
+                "file": "posts/hk.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "03edd15e96db2765",
   "lastOpenFiles": [
-    "posts/hk.md",
     "posts/military1.md",
+    "posts/hk.md",
     "posts/on-writing.md",
     "posts/hualien.md",
     "posts/bookshelf.md",
