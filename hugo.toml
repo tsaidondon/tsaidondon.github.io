@@ -22,9 +22,9 @@ withSiteTitle = false
       Twitter = false
       Facebook = false
     [params.page.comment]
-      enable = true
+      enable = false
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "nSbXKwP8nT9ulctImdR3h89x-MdYXbMMI"
         appKey = "xuP3v6RK48JzFqJLNcFUZ4oe"
         placeholder = ""
