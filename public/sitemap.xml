@@ -2,13 +2,14 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>http://localhost:1313/</loc><lastmod>2024-10-18T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://localhost:1313/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://localhost:1313/tags/places/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://localhost:1313/tags/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod></url><url>
+      <loc>http://localhost:1313/posts/california/</loc><lastmod>2024-10-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/tags/introspect/</loc><lastmod>2024-10-18T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://localhost:1313/posts/</loc><lastmod>2024-10-18T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://localhost:1313/tags/</loc><lastmod>2024-10-18T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/posts/writing/</loc><lastmod>2024-10-18T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/posts/bookshelf/</loc><lastmod>2024-06-15T00:00:00&#43;00:00</lastmod></url><url>
-      <loc>http://localhost:1313/tags/places/</loc><lastmod>2024-06-14T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/posts/hualien/</loc><lastmod>2024-06-14T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/posts/hongkong/</loc><lastmod>2024-04-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/posts/military/</loc><lastmod>2024-04-18T00:00:00&#43;00:00</lastmod></url><url>
