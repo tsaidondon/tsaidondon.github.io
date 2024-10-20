@@ -4,7 +4,6 @@ defaultContentLanguage = "zh-tw"
 title = "Dondon Tsai"
 theme = 'FixIt'
 hasCJKLanguage = true
-summaryLength = 50
 withSiteTitle = false
 [params]
   [params.author]
