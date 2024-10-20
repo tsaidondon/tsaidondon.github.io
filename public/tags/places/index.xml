@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Places - 標籤 - Dondon Tsai</title>
-    <link>http://localhost:1313/tags/places/</link>
+    <link>https://tsaidondon.github.io/tags/places/</link>
     <description>Dondon Tsai</description>
     <generator>Hugo 0.136.2 &amp; FixIt v0.3.13</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sat, 19 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/places/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tsaidondon.github.io/tags/places/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>加州</title>
-      <link>http://localhost:1313/posts/california/</link>
+      <link>https://tsaidondon.github.io/posts/california/</link>
       <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/california/</guid>
+      <guid>https://tsaidondon.github.io/posts/california/</guid>
       <description>&lt;p&gt;來到加州，沒了家人與台灣的呵護，才領會生活每一處都是勞動，想吃頓熱的，就要備料開火洗碗，下班想休息，也得先踩踏板載自己回家。生活有他冷硬的規律，時間到了就該下樓煮飯，等到真餓就已遲了；出門晚了，就得一路跟學童爭道。有次狠下心買了盒牛肉，過了兩天卻已發酸，成了垃圾，如今我也跟媽媽一樣，在冷藏架前站老半天，找離保鮮期最久的，想著特價的雞肉來的及吃嗎，還是先吃冰箱裡的那盒香腸？&lt;/p&gt;</description>
     </item>
     <item>
       <title>花蓮</title>
-      <link>http://localhost:1313/posts/hualien/</link>
+      <link>https://tsaidondon.github.io/posts/hualien/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hualien/</guid>
+      <guid>https://tsaidondon.github.io/posts/hualien/</guid>
       <description>&lt;p&gt;去花蓮的火車上，我在宜蘭一段看到了海。看著這片海，我卻想到了張愛玲。她說我們都市人「總是先看見海的圖畫，後看見海，」用二手的語言寫二手的經驗。婆羅洲的海藍得可以剪下來當作明信片，但眼前的海其實不太藍，幾乎是灰的。&lt;/p&gt;</description>
     </item>
     <item>
       <title>當兵</title>
-      <link>http://localhost:1313/posts/military/</link>
+      <link>https://tsaidondon.github.io/posts/military/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/military/</guid>
+      <guid>https://tsaidondon.github.io/posts/military/</guid>
       <description>&lt;p&gt;震撼是進入機構必經的儀式。在入伍訓，我們穿上迷彩服，剃成光頭，用號碼而非名字稱呼彼此，消除了可能妨礙管理的差異；我們被外界隔離、收走手機、連著十二天不回家，使世界被限縮到寢室、餐廳與集合場；集合有命令、走路有命令、吃飯也有命令，我們的意識被命令填滿，讓不假思考的服從成為了肌肉記憶。&lt;/p&gt;</description>
     </item>
     <item>
       <title>回香港</title>
-      <link>http://localhost:1313/posts/hongkong/</link>
+      <link>https://tsaidondon.github.io/posts/hongkong/</link>
       <pubDate>Fri, 19 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hongkong/</guid>
+      <guid>https://tsaidondon.github.io/posts/hongkong/</guid>
       <description>&lt;p&gt;2019年末，我從學校搭上的士，只想盡快從清水灣趕回內湖。但司機說九龍封住了走不通，得從西貢公路繞著走。載生鮮的小貨車、剛打蠟完的轎跑，整個香港的車流都被壓縮到了那山海間的一線道。到了機場，也沒時間吃翠華的海南雞，報到、出關、登機。我就這麼走了，卻沒想到一去就是兩年。&lt;/p&gt;</description>
     </item>
   </channel>

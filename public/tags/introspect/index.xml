@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introspect - 標籤 - Dondon Tsai</title>
-    <link>http://localhost:1313/tags/introspect/</link>
+    <link>https://tsaidondon.github.io/tags/introspect/</link>
     <description>Dondon Tsai</description>
     <generator>Hugo 0.136.2 &amp; FixIt v0.3.13</generator>
     <language>zh-tw</language>
     <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/introspect/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tsaidondon.github.io/tags/introspect/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>寫作</title>
-      <link>http://localhost:1313/posts/writing/</link>
+      <link>https://tsaidondon.github.io/posts/writing/</link>
       <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/writing/</guid>
+      <guid>https://tsaidondon.github.io/posts/writing/</guid>
       <description>&lt;p&gt;我本來仍會去想像寫作，去想「之後」可以寫些甚麼。但一次暑假時，我想放假不寫，更待何時？於是承認，好久沒寫了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的書櫃</title>
-      <link>http://localhost:1313/posts/bookshelf/</link>
+      <link>https://tsaidondon.github.io/posts/bookshelf/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/bookshelf/</guid>
+      <guid>https://tsaidondon.github.io/posts/bookshelf/</guid>
       <description>&lt;p&gt;從我有記憶起，家裡的走廊就一直被比我還高的CD架佔據著，把走廊都擠窄了。架上擺了不少CD，但大多是書。起初都是爸媽的日本推理小說與西方文學，但等到我上小學認字，奇幻小說的領地就開始擴張，把僅餘的空牆也都釘上了書架。有時逛書店的奇幻區，書都比我家還少些。《迷霧之子》自不用說，我也看龍槍系列，耐著性子把《精靈寶鑽》讀完，還看了些吸血鬼的都會奇幻。&lt;/p&gt;</description>
     </item>
   </channel>
