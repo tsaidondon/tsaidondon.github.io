@@ -9,10 +9,11 @@ withSiteTitle = false
 [params]
   [params.author]
     name = "Dondon Tsai"
+    avatar = "/campfire.png"
   [params.cookieconsent]
     enable = false
   [params.page]
-    authorAvatar = false
+    authorAvatar = true
     wordCount = false
     readingTime = false    
     pageStyle = "narrow"

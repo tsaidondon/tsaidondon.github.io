@@ -14,4 +14,6 @@
       <loc>http://localhost:1313/posts/hongkong/</loc><lastmod>2024-04-19T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/posts/military/</loc><lastmod>2024-04-18T00:00:00&#43;00:00</lastmod></url><url>
       <loc>http://localhost:1313/categories/</loc></url><url>
+      <loc>http://localhost:1313/tags/collection/</loc></url><url>
+      <loc>http://localhost:1313/tags/list/</loc></url><url>
       <loc>http://localhost:1313/about/</loc></url></urlset>
