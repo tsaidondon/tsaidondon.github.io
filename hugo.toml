@@ -26,14 +26,7 @@ withSiteTitle = false
       paginate = 6
 
  [params.home.profile]
-      enable = true
-      gravatarEmail = ""
-      avatarURL = "/avatar.png"
-      avatarMenu = ""
-      title = ""
-      subtitle = ""
-      typeit = false
-      social = false
+      enable = false
   [params.footer]
     enable = true
     custom = ""
@@ -49,17 +42,6 @@ withSiteTitle = false
       themeLogo = false
 
 [menu]
-  [[menu.main]]
-    identifier = "tags"
-    parent = ""
-    pre = ""
-    post = ""
-    name = "標籤"
-    url = "/tags/"
-    title = ""
-    weight = 3
-    [menu.main.params]
-      icon = "fa-solid fa-tags"
   [[menu.main]]
     identifier = "about"
     parent = ""

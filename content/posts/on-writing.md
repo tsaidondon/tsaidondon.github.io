@@ -4,8 +4,6 @@ subtitle:
 date: 2024-10-18
 slug: writing
 draft: false
-tags:
-  - introspect
 toc: true
 math: false
 ---

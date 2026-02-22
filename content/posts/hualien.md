@@ -4,8 +4,6 @@ subtitle:
 date: 2024-06-14
 slug: hualien
 draft: false
-tags:
-  - places
 toc: true
 math: false
 ---

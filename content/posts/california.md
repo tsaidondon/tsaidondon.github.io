@@ -4,8 +4,6 @@ subtitle:
 date: 2024-10-19
 slug: california
 draft: false
-tags:
-  - places
 toc: true
 math: false
 ---

@@ -4,8 +4,6 @@ subtitle:
 date: 2024-06-15
 slug: bookshelf
 draft: false
-tags:
-  - introspect
 toc: true
 math: false
 ---

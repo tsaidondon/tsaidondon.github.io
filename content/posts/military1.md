@@ -4,8 +4,6 @@ subtitle:
 date: 2024-04-20
 slug: military
 draft: false
-tags:
-  - places
 toc: true
 math: false
 ---

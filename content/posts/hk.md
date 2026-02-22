@@ -4,8 +4,6 @@ subtitle:
 date: 2024-04-19
 slug: hongkong
 draft: false
-tags:
-  - places
 toc: true
 math: false
 ---
