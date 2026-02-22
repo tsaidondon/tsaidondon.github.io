@@ -1,49 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://tsaidondon.github.io/</loc>
+    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://tsaidondon.github.io/posts/</loc>
+    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://tsaidondon.github.io/posts/winter/</loc>
+    <lastmod>2025-01-05T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://tsaidondon.github.io/posts/california/</loc>
     <lastmod>2024-10-19T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-10-19T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/california/</loc>
-    <lastmod>2024-10-19T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/writing/</loc>
+    <loc>https://tsaidondon.github.io/posts/writing/</loc>
     <lastmod>2024-10-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/bookshelf/</loc>
+    <loc>https://tsaidondon.github.io/posts/bookshelf/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/places/</loc>
+    <loc>https://tsaidondon.github.io/posts/hualien/</loc>
     <lastmod>2024-06-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/hualien/</loc>
-    <lastmod>2024-06-14T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/military/</loc>
+    <loc>https://tsaidondon.github.io/posts/military/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/hongkong/</loc>
+    <loc>https://tsaidondon.github.io/posts/hongkong/</loc>
     <lastmod>2024-04-19T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://tsaidondon.github.io/categories/</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://tsaidondon.github.io/tags/</loc>
+  </url>
+  <url>
+    <loc>https://tsaidondon.github.io/about/</loc>
   </url>
 </urlset>
