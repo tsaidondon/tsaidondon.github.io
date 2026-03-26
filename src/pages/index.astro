@@ -7,50 +7,66 @@ const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTim
 ---
 
 <BaseLayout title="蔡霖東">
-  <section class="bio">
-    <p class="name">蔡霖東</p>
-    <p class="bio-text">
-      也是個<a href="https://github.com/TsaiLintung?tab=repositories">學經濟的</a>。
-    </p>
-  </section>
+  <div class="page">
+    <section class="bio">
+      <p class="name">蔡霖東</p>
+      <p class="bio-text">
+        也是個<a href="https://github.com/TsaiLintung?tab=repositories">學經濟的</a>。
+      </p>
+    </section>
 
-  <hr class="divider" />
+    <hr class="divider" />
 
-  <section class="posts">
-    {posts.map(post => {
-      const date = post.data.date.toLocaleDateString('zh-TW', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-      });
-      return (
-        <div class="post-entry">
-          <time class="entry-date">{date}</time>
-          <a href={`/posts/${post.slug}`} class="entry-title">{post.data.title}</a>
-        </div>
-      );
-    })}
-  </section>
+    <section class="posts">
+      {posts.map(post => {
+        const date = post.data.date.toLocaleDateString('zh-TW', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        });
+        return (
+          <div class="post-entry">
+            <time class="entry-date">{date}</time>
+            <a href={`/posts/${post.slug}`} class="entry-title">{post.data.title}</a>
+          </div>
+        );
+      })}
+    </section>
+  </div>
 </BaseLayout>
 
 <style>
-  /* ─── Bio ────────────────────────────────────────────────── */
+  /* Make main a flex column so .page can stretch and center */
+  :global(main) {
+    display: flex;
+    flex-direction: column;
+  }
 
-  .bio {
-    padding-bottom: 2em;
+  .page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 0;
   }
 
   .divider {
     border: none;
     background: var(--color-border-subtle);
     height: 1px;
-    margin: 0 0 2.5em 0;
+    margin: 2.5em 0;
   }
 
-  .name {
+  /* ─── Bio ────────────────────────────────────────────────── */
+
+  .bio {
+    padding-bottom: 0;
+  }
+
+.name {
     font-family: var(--font-display);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.5rem;
     letter-spacing: 0.4em;
     text-transform: uppercase;
     color: var(--color-title-ink);
@@ -100,7 +116,7 @@ const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTim
 
   .entry-title {
     font-family: var(--font-serif);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: var(--color-title-ink);
     text-decoration: none;
