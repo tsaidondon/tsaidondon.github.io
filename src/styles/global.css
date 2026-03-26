@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Source+Serif+4:wght@400;500&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* ─── Design tokens ─────────────────────────────────────────── */
+
+:root {
+  --color-bg:            #ffffff;
+  --color-surface:       #ffffff;
+  --color-text:          #0f1a15;
+  --color-text-muted:    #4e7a66;
+  --color-accent:        #3eb489;
+  --color-accent-hover:  #2d8a6c;
+  --color-border:        #c8e6d5;
+  --color-border-subtle: #e9f5ef;
+  --color-border-input:  #c2ddd2;
+  --color-error:         #c62828;
+  --color-error-border:  #f5c2c0;
+  --color-overlay:       rgba(255, 255, 255, 0.94);
+  --color-title-ink:     #1c1208;
+
+  --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-body:    'Source Sans 3', 'Myriad Pro', system-ui, sans-serif;
+  --font-serif:   'Source Serif 4', 'Minion Pro', Georgia, serif;
+}
+
+
+/* ─── Base ───────────────────────────────────────────────────── */
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 24px;
+}
+
+/* ─── Typography ─────────────────────────────────────────────── */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: var(--color-title-ink);
+  line-height: 1.4;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.1rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.25em;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* ─── Links ──────────────────────────────────────────────────── */
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* ─── Dividers ───────────────────────────────────────────────── */
+
+hr {
+  border: none;
+  background: var(--color-border-subtle);
+  height: 1px;
+  margin: 2.5em 0;
+}
+
+/* ─── Blockquotes ────────────────────────────────────────────── */
+
+blockquote {
+  border-left: 2px solid var(--color-border);
+  padding-left: 1.25em;
+  margin-left: 0;
+  margin-right: 0;
+  color: var(--color-text-muted);
+}
+
+/* ─── Lists ──────────────────────────────────────────────────── */
+
+ul, ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+li {
+  margin-bottom: 0.35em;
+}
+
+/* ─── Code ───────────────────────────────────────────────────── */
+
+code {
+  font-size: 0.875em;
+  background: var(--color-border-subtle);
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
+}
+
+pre {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 1.25em;
+  overflow-x: auto;
+  margin-bottom: 1.25em;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}

@@ -1,0 +1,89 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'Dondon Tsai', description = '' } = Astro.props;
+const fullTitle = title === 'Dondon Tsai' ? title : `${title} — Dondon Tsai`;
+---
+
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <a href="/" class="wordmark">Dondon Tsai</a>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <span>© {new Date().getFullYear()} Dondon Tsai</span>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  header {
+    border-bottom: 1px solid var(--color-border-subtle);
+  }
+
+  .header-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wordmark {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 1.05rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--color-title-ink);
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+
+  .wordmark:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  footer {
+    border-top: 1px solid var(--color-border-subtle);
+    margin-top: 4rem;
+  }
+
+  .footer-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20px 24px;
+    text-align: center;
+  }
+
+  .footer-inner span {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+</style>

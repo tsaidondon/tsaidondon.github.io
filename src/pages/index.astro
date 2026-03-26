@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="Dondon Tsai">
+  <div class="about">
+    <p>
+      也是個<a href="https://github.com/TsaiLintung?tab=repositories">學經濟的</a>。以前寫的：
+      <a href="https://tsailintung.medium.com/">Medium</a>、<a href="https://www.thenewslens.com/author/tsaidondon">關鍵評論網</a>、<a href="https://storystudio.tw/member/tsaidondon/articles">故事</a>、<a href="https://www.facebook.com/candleinthecave">臉書</a>、<a href="https://storystudio.tw/article/sobooks/people-x-sobooks-tsai-lin-tung">故事訪問</a>、<a href="https://opinion.cw.com.tw/blog/profile/52/article/9370">獨立天下</a>、<a href="https://www.chengzhiedu.org/blog/kistnewsletter1-kistsmplus-dual-purpose/">KIST</a>、<a href="https://www.teach4taiwan.org/%E8%B5%B0%E9%80%B2%E7%A4%BE%E5%8D%80%E3%80%8C%E8%A6%8B%E6%A8%B9%E5%8F%88%E8%A6%8B%E6%9E%97%E3%80%8D-%E7%A4%BE%E5%8D%80%E7%87%9F%E9%80%A0%E6%A0%A1%E5%8F%8B%E7%A4%BE%E7%BE%A4%E7%9A%84/">TFT</a>、<a href="https://isbn.ncl.edu.tw/NEW_ISBNNet/main_DisplayRecord_Popup.php?&Pact=view&Pkey=1110122*0110&KeepThis=true&TB_iframe=true&width=780&height=480">共生</a>
+    </p>
+  </div>
+
+  <ul class="post-list">
+    {posts.map(post => {
+      const date = post.data.date.toLocaleDateString('zh-TW', {
+        year: 'numeric',
+        month: 'numeric',
+        day: 'numeric',
+      });
+      return (
+        <li class="post-item">
+          <time class="post-date">{date}</time>
+          <a href={`/posts/${post.slug}`} class="post-title">{post.data.title}</a>
+        </li>
+      );
+    })}
+  </ul>
+</BaseLayout>
+
+<style>
+  .about {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .about p {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
+  }
+
+  .post-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid var(--color-border-subtle);
+  }
+
+  .post-item:first-child {
+    border-top: 1px solid var(--color-border-subtle);
+  }
+
+  .post-date {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+  }
+
+  .post-title {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--color-title-ink);
+    text-decoration: none;
+    transition: color 150ms ease;
+  }
+
+  .post-title:hover {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+</style>
