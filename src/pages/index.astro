@@ -6,82 +6,110 @@ const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 ---
 
-<BaseLayout title="Dondon Tsai">
-  <div class="about">
-    <p>
-      也是個<a href="https://github.com/TsaiLintung?tab=repositories">學經濟的</a>。以前寫的：
-      <a href="https://tsailintung.medium.com/">Medium</a>、<a href="https://www.thenewslens.com/author/tsaidondon">關鍵評論網</a>、<a href="https://storystudio.tw/member/tsaidondon/articles">故事</a>、<a href="https://www.facebook.com/candleinthecave">臉書</a>、<a href="https://storystudio.tw/article/sobooks/people-x-sobooks-tsai-lin-tung">故事訪問</a>、<a href="https://opinion.cw.com.tw/blog/profile/52/article/9370">獨立天下</a>、<a href="https://www.chengzhiedu.org/blog/kistnewsletter1-kistsmplus-dual-purpose/">KIST</a>、<a href="https://www.teach4taiwan.org/%E8%B5%B0%E9%80%B2%E7%A4%BE%E5%8D%80%E3%80%8C%E8%A6%8B%E6%A8%B9%E5%8F%88%E8%A6%8B%E6%9E%97%E3%80%8D-%E7%A4%BE%E5%8D%80%E7%87%9F%E9%80%A0%E6%A0%A1%E5%8F%8B%E7%A4%BE%E7%BE%A4%E7%9A%84/">TFT</a>、<a href="https://isbn.ncl.edu.tw/NEW_ISBNNet/main_DisplayRecord_Popup.php?&Pact=view&Pkey=1110122*0110&KeepThis=true&TB_iframe=true&width=780&height=480">共生</a>
+<BaseLayout title="蔡霖東">
+  <section class="bio">
+    <p class="name">蔡霖東</p>
+    <p class="bio-text">
+      也是個<a href="https://github.com/TsaiLintung?tab=repositories">學經濟的</a>。
     </p>
-  </div>
+  </section>
 
-  <ul class="post-list">
+  <hr class="divider" />
+
+  <section class="posts">
     {posts.map(post => {
       const date = post.data.date.toLocaleDateString('zh-TW', {
         year: 'numeric',
-        month: 'numeric',
+        month: 'long',
         day: 'numeric',
       });
       return (
-        <li class="post-item">
-          <time class="post-date">{date}</time>
-          <a href={`/posts/${post.slug}`} class="post-title">{post.data.title}</a>
-        </li>
+        <div class="post-entry">
+          <time class="entry-date">{date}</time>
+          <a href={`/posts/${post.slug}`} class="entry-title">{post.data.title}</a>
+        </div>
       );
     })}
-  </ul>
+  </section>
 </BaseLayout>
 
 <style>
-  .about {
-    padding-top: 1.5rem;
-    padding-bottom: 0.5rem;
+  /* ─── Bio ────────────────────────────────────────────────── */
+
+  .bio {
+    padding-bottom: 2em;
   }
 
-  .about p {
-    color: var(--color-text-muted);
-    font-size: 0.9rem;
-    line-height: 1.7;
-    margin: 0;
+  .divider {
+    border: none;
+    background: var(--color-border-subtle);
+    height: 1px;
+    margin: 0 0 2.5em 0;
   }
 
-  .post-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 1.5rem;
-  }
-
-  .post-item {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 1rem;
-    align-items: baseline;
-    padding: 1.1rem 0;
-    border-bottom: 1px solid var(--color-border-subtle);
-  }
-
-  .post-item:first-child {
-    border-top: 1px solid var(--color-border-subtle);
-  }
-
-  .post-date {
-    font-size: 0.75rem;
-    color: var(--color-text-muted);
-    white-space: nowrap;
-  }
-
-  .post-title {
-    font-family: var(--font-serif);
-    font-size: 1.1rem;
+  .name {
+    font-family: var(--font-display);
     font-weight: 500;
-    line-height: 1.4;
+    font-size: 1rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--color-title-ink);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .bio-text {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    line-height: 1.8;
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .bio-text a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--color-border);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 150ms ease;
+  }
+
+  .bio-text a:hover {
+    text-decoration-color: var(--color-accent);
+  }
+
+  /* ─── Post list ──────────────────────────────────────────── */
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25em;
+  }
+
+  .post-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+  }
+
+  .entry-date {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    color: var(--color-text-muted);
+    opacity: 0.7;
+  }
+
+  .entry-title {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    font-weight: 400;
     color: var(--color-title-ink);
     text-decoration: none;
     transition: color 150ms ease;
   }
 
-  .post-title:hover {
+  .entry-title:hover {
     color: var(--color-accent);
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 </style>

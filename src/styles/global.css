@@ -52,10 +52,11 @@ body {
 
 main {
   flex: 1;
-  width: 100%;
+  width: calc(100% - 32px);
   max-width: 720px;
   margin: 0 auto;
   padding: 24px 24px;
+  border-left: 2px solid var(--color-accent);
 }
 
 /* ─── Typography ─────────────────────────────────────────────── */

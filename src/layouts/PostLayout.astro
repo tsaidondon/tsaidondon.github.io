@@ -18,8 +18,9 @@ const formattedDate = date.toLocaleDateString('zh-TW', {
 <BaseLayout title={title}>
   <article>
     <header class="post-header">
-      <time class="post-meta" datetime={date.toISOString()}>{formattedDate}</time>
+      <a href="/" class="back">蔡霖東</a>
       <h1 class="post-title">{title}</h1>
+      <time class="post-date" datetime={date.toISOString()}>{formattedDate}</time>
     </header>
     <div class="post-content">
       <slot />
@@ -36,14 +37,28 @@ const formattedDate = date.toLocaleDateString('zh-TW', {
     margin-bottom: 2rem;
   }
 
-  .post-meta {
+  .back {
     display: block;
-    font-size: 0.68rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
+    font-family: var(--font-display);
+    font-size: 0.85rem;
+    font-variant: small-caps;
+    letter-spacing: 0.2em;
+    color: #888;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    transition: color 150ms ease;
+  }
+
+  .back:hover {
+    color: var(--color-accent);
+  }
+
+  .post-date {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.78rem;
     color: var(--color-text-muted);
-    margin-bottom: 0.75rem;
+    margin-top: 0.4rem;
   }
 
   .post-title {

@@ -6,8 +6,8 @@ interface Props {
   description?: string;
 }
 
-const { title = 'Dondon Tsai', description = '' } = Astro.props;
-const fullTitle = title === 'Dondon Tsai' ? title : `${title} — Dondon Tsai`;
+const { title = '蔡霖東', description = '' } = Astro.props;
+const fullTitle = title === '蔡霖東' ? title : `${title} — 蔡霖東`;
 ---
 
 <!doctype html>
@@ -21,57 +21,20 @@ const fullTitle = title === 'Dondon Tsai' ? title : `${title} — Dondon Tsai`;
     <title>{fullTitle}</title>
   </head>
   <body>
-    <header>
-      <div class="header-inner">
-        <a href="/" class="wordmark">Dondon Tsai</a>
-      </div>
-    </header>
-
     <main>
       <slot />
     </main>
 
     <footer>
       <div class="footer-inner">
-        <span>© {new Date().getFullYear()} Dondon Tsai</span>
+        <span>© {new Date().getFullYear()} 蔡霖東</span>
       </div>
     </footer>
   </body>
 </html>
 
 <style>
-  header {
-    border-bottom: 1px solid var(--color-border-subtle);
-  }
-
-  .header-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 24px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .wordmark {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 1.05rem;
-    letter-spacing: 0.4em;
-    text-transform: uppercase;
-    color: var(--color-title-ink);
-    text-decoration: none;
-    transition: color 150ms ease;
-  }
-
-  .wordmark:hover {
-    color: var(--color-accent);
-    text-decoration: none;
-  }
-
   footer {
-    border-top: 1px solid var(--color-border-subtle);
     margin-top: 4rem;
   }
 
