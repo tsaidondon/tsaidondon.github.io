@@ -10,12 +10,7 @@ const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTim
   <div class="page">
     <section class="bio">
       <p class="name">蔡霖東</p>
-      <p class="bio-text">
-        也<a href="https://github.com/TsaiLintung?tab=repositories">學經濟</a>。
-      </p>
     </section>
-
-    <hr class="divider" />
 
     <section class="posts">
       {posts.map(post => {
@@ -68,10 +63,10 @@ const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTim
     font-family: var(--font-display);
     font-weight: 500;
     font-size: 1.5rem;
-    letter-spacing: 0.4em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--color-title-ink);
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 2rem 0;
   }
 
   .bio-text {
