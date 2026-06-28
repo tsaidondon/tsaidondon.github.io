@@ -6,8 +6,8 @@ interface Props {
   description?: string;
 }
 
-const { title = '蔡霖東', description = '' } = Astro.props;
-const fullTitle = title === '蔡霖東' ? title : `${title} — 蔡霖東`;
+const { title = 'Dondon Tsai', description = '' } = Astro.props;
+const fullTitle = title === 'Dondon Tsai' ? title : `${title} — Dondon Tsai`;
 ---
 
 <!doctype html>
@@ -27,7 +27,7 @@ const fullTitle = title === '蔡霖東' ? title : `${title} — 蔡霖東`;
 
     <footer>
       <div class="footer-inner">
-        <span>© {new Date().getFullYear()} 蔡霖東</span>
+        <span>© {new Date().getFullYear()} Dondon Tsai</span>
       </div>
     </footer>
   </body>
